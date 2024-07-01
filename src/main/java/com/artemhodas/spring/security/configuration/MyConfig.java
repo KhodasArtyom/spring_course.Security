@@ -1,4 +1,4 @@
-package com.artemhodas.spring_security.configuration;
+package com.artemhodas.spring.security.configuration;
 
 import org.springframework.context.annotation.Bean;
 import org.springframework.context.annotation.ComponentScan;
@@ -8,7 +8,7 @@ import org.springframework.web.servlet.config.annotation.EnableWebMvc;
 import org.springframework.web.servlet.view.InternalResourceViewResolver;
 
 @Configuration
-@ComponentScan(basePackages = "com.artemhodas.spring_security")
+@ComponentScan(basePackages = "com.artemhodas.spring.security")
 @EnableWebMvc
 public class MyConfig {
 
@@ -20,6 +20,4 @@ public class MyConfig {
         internalResourceViewResolver.setSuffix(".jsp");
         return internalResourceViewResolver;
     }
-
-
 }

@@ -1,6 +1,7 @@
-package com.artemhodas.spring_security.configuration;
+package com.artemhodas.spring.security.configuration;
 
 import org.springframework.web.servlet.support.AbstractAnnotationConfigDispatcherServletInitializer;
+
 
 public class MyWebInitializer extends AbstractAnnotationConfigDispatcherServletInitializer {
     @Override
